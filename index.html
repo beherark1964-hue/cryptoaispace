@@ -258,7 +258,6 @@
     .value-card .sub { font-size: 8px; color: var(--muted); margin-top: 2px; }
     .value-card .sub strong { color: var(--green); }
 
-    /* CTA GROUP — horizontal on desktop */
     .cta-group {
       display: flex;
       flex-wrap: wrap;
@@ -337,7 +336,6 @@
     .section-eyebrow { font-size: 10px; font-weight: 700; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
     .section-title { font-family: var(--font-syne); font-size: clamp(20px, 5vw, 34px); font-weight: 800; letter-spacing: -0.5px; margin-bottom: 24px; line-height: 1.15; }
 
-    /* CARDS — horizontal on desktop */
     .cards {
       display: flex;
       flex-wrap: wrap;
@@ -410,7 +408,6 @@
     .sale-venue { background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.2); color: var(--gold-light); font-size: 9px; font-weight: 600; padding: 2px 8px; border-radius: 8px; }
     .sales-note { font-size: 11px; color: var(--muted); margin-top: 12px; font-style: italic; line-height: 1.5; }
 
-    /* PORTFOLIO — horizontal */
     .portfolio-section { max-width: 960px; margin: 0 auto 40px; padding: 0 14px; width: 100%; }
     .portfolio-grid {
       display: flex;
@@ -432,7 +429,15 @@
       text-align: center;
     }
     .portfolio-card:hover { border-color: var(--gold); transform: translateY(-2px); }
-    .portfolio-domain { font-family: var(--font-syne); font-size: 15px; font-weight: 800; color: var(--off-white); margin-bottom: 4px; word-break: break-word; }
+    /* Smaller domain font for portfolio cards */
+    .portfolio-domain {
+      font-family: var(--font-syne);
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--off-white);
+      margin-bottom: 4px;
+      word-break: break-word;
+    }
     .portfolio-domain span { background: linear-gradient(135deg, var(--gold), var(--gold-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .portfolio-price { font-size: 11px; color: var(--muted); }
     .portfolio-price strong { color: var(--green); }
@@ -497,7 +502,6 @@
     }
     .buy-sticky .btn { max-width: 320px; font-size: 15px; padding: 14px; margin: 0 auto; }
 
-    /* RESPONSIVE */
     @media (max-width: 768px) {
       .cta-group { gap: 6px; }
       .btn { font-size: 11px; padding: 6px 10px; min-width: 60px; }
@@ -589,7 +593,6 @@
       </div>
     </div>
 
-    <!-- CTA BUTTONS — horizontal, no "Make Offer" -->
     <div class="cta-group">
       <a href="https://www.afternic.com/domain/cryptoaispace.com" target="_blank" class="btn btn-afternic">Afternic</a>
       <a href="https://sedo.com/search/details/?domain=cryptoaispace.com" target="_blank" class="btn btn-sedo">Sedo</a>
@@ -607,7 +610,6 @@
     <div class="stat-item"><div class="stat-num">🚀 AI+Crypto</div><div class="stat-label">Fastest Growing Sector</div></div>
   </div>
 
-  <!-- FEATURE CARDS — horizontal -->
   <div class="section">
     <div class="section-eyebrow">Why CryptoAiSpace.com</div>
     <div class="section-title">The ultimate AI & crypto brand.</div>
@@ -651,7 +653,6 @@
     </div>
   </div>
 
-  <!-- PORTFOLIO — horizontal -->
   <div class="portfolio-section">
     <div class="section-eyebrow">Also Available</div>
     <div class="section-title">From the same portfolio.</div>
